@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Menu {
 
     private Scanner scanner;
-    private String input;
+    private int input;
 
     public Menu() {
         scanner = new Scanner(System.in);
@@ -17,16 +17,9 @@ public class Menu {
         do {
             printMenu();
             System.out.print("What you need to do? Choose number: ");
-            input = scanner.nextLine();
-
-            try {
-                Integer.parseInt(input);
-            } catch(NumberFormatException e) {
-                System.out.println("This is not a number! Check this!");
-            }
-
+            input = scanner.nextInt();
             whatUserInput(input);
-        } while (input == "0");
+        } while (input == 0);
     }
 
     private void printMenu() {
@@ -47,56 +40,56 @@ public class Menu {
         System.out.println();
     }
 
-    private void whatUserInput(String input) {
+    private void whatUserInput(int input) {
         switch (input) {
-            case "1": {
+            case 1: {
                 sayWhatUserInput(input);
                 doMultiplication();
                 break;
             }
-            case "2": {
+            case 2: {
                 sayWhatUserInput(input);
                 doDivision();
                 break;
             }
-            case "3": {
+            case 3: {
                 sayWhatUserInput(input);
                 doDecToBin();
                 break;
             }
-            case "4": {
+            case 4: {
                 sayWhatUserInput(input);
                 doBinToOctal();
                 break;
             }
-            case "5": {
+            case 5: {
                 sayWhatUserInput(input);
                 doSinus();
                 break;
             }
-            case "6": {
+            case 6: {
                 sayWhatUserInput(input);
                 doCosinus();
                 break;
             }
-            case "7": {
+            case 7: {
                 sayWhatUserInput(input);
                 doLogarithm();
                 break;
             }
-            case "8": {
+            case 8: {
                 sayWhatUserInput(input);
                 doElement();
                 break;
             }
-            case "0": {
+            case 0: {
                 sayWhatUserInput(input);
                 System.out.println("Bye bye!");
                 System.exit(0);
                 break;
             }
             default: {
-                System.out.println("This is not good idea! Try again!");
+                System.out.println("This is not a good idea! Try again!");
                 go();
                 break;
             }
@@ -116,7 +109,7 @@ public class Menu {
         go();
     }
 
-    private void sayWhatUserInput(String input) {
+    private void sayWhatUserInput(int input) {
         System.out.println("You have entered: " + input);
     }
 
