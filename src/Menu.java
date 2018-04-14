@@ -27,7 +27,7 @@ public class Menu {
         System.out.println("4: sinus");
         System.out.println("5: cosinus");
         System.out.println("6: logarithm");
-        System.out.println("0: to exit application.");
+        System.out.println("0: to exit application");
         System.out.println("---");
         System.out.println();
     }
