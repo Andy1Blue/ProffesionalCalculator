@@ -14,7 +14,7 @@ public class Menu {
             printMenu();
             input = scanner.nextInt();
             whatUserInput(input);
-        } while (input <= 0);
+        } while (input == 0);
     }
 
     private void printMenu() {
