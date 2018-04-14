@@ -33,6 +33,7 @@ public class Menu {
         System.out.println();
         System.out.println("---");
         System.out.println("WELCOME TO PROFFESIONAL CALCULATOR!");
+        System.out.println("You can enter only a number!");
         System.out.println("1: multiplication");
         System.out.println("2: division");
         System.out.println("3: declimal to binary");
