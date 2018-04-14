@@ -1,0 +1,8 @@
+//pierwiastek
+
+public class Element {
+
+
+
+
+}
