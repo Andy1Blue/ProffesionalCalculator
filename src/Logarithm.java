@@ -1,8 +1,7 @@
 public class Logarithm {
 
-    public double logarithm(double a) {
+    //niestety bez Math nie umiem tego ogarnąć :(
 
-return a;
-    }
+    public double logarithm(double a) { return Math.log(a); }
 
 }
