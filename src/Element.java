@@ -1,4 +1,6 @@
-//pierwiastek
+/**
+ * Pierwiastek
+ */
 
 public class Element {
 

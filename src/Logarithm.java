@@ -1,6 +1,8 @@
-public class Logarithm {
+/**
+ * Logarytm
+ */
 
-    //niestety bez Math nie umiem tego ogarnąć :(
+public class Logarithm {
 
     public double logarithm(double a) { return Math.log(a); }
 

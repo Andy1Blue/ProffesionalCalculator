@@ -1,3 +1,7 @@
+/**
+ * Operacje na liczbach
+ */
+
 public class NumberOperation {
 
     //mnożenie

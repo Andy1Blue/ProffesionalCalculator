@@ -1,3 +1,7 @@
+/**
+ * Logika menu
+ */
+
 import java.util.Scanner;
 
 public class Menu {
@@ -31,6 +35,8 @@ public class Menu {
         System.out.println("---");
         System.out.println();
     }
+
+    //dodać metody
 
     private void whatUserInput(int input) {
         switch (input) {

@@ -1,6 +1,8 @@
-public class CosSin {
+/**
+ * Cosinus i Sinus
+ */
 
-    //niestety bez Math nie umiem tego ogarnąć :(
+public class CosSin {
 
     double sin(double a) {
         return Math.sin(a);

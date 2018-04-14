@@ -1,4 +1,6 @@
-// dziesiętny na binarny
+/**
+ * Dziesiętny i binarny
+ */
 
 public class DecimalBinary {
 
