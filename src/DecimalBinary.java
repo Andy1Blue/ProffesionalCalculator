@@ -2,7 +2,7 @@
 
 public class DecimalBinary {
 
-    public String DecimalToBinary(int n) {
+    public String decimalToBinary(int n) {
         int count = 0;
         int a;
         String x = "";

@@ -1,6 +1,6 @@
 public class Logarithm {
 
-    public double Logarithm(double a) {
+    public double logarithm(double a) {
 
 return a;
     }
